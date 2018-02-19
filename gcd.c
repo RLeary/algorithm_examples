@@ -48,3 +48,9 @@ int gcd(int i, int j)
  *    }
  * }
  */
+
+int lcd(int i, int j, int gcd)
+{
+  int lcm = (i * j) / gcd(i, j);
+  return lcm;
+}
